@@ -1,0 +1,79 @@
+body{
+	background-color: blue;
+}
+header{
+	background-color: yellow;
+	height: 200px;
+}
+nav,aside{
+	width: 20%;
+	float: left;
+}
+h2{
+	text-align: center;
+}
+main{
+	width: 60%;
+	background-color: violet;
+	float: left;
+}
+foater{
+	height: 200px;
+	background-color: pink;
+	clear: both;
+}
+section{
+	margin: 20px;
+}
+article{
+	margin: 10px;
+	border: dashed 2px orange;
+	font-size: 24px;
+	text-align: justify;
+	padding: 10px;
+}
+iframe{
+	margin: auto;
+	display: block;
+}
+.bgvideo{
+
+	height: 100%;
+
+	width: 100%;
+
+	position: relative;
+
+	display: flex;
+
+	justify-content: center;
+
+	align-items: center;
+
+}
+
+.bgvideo video{
+
+	height: 100%;
+
+	width: 100%;
+
+	position: absolute;
+
+top: 0;
+
+left: 0;
+
+object-fit: cover;
+
+z-index: 1;
+
+}
+
+h1{
+
+	z-index: 2;
+
+	color: pink;
+
+}
